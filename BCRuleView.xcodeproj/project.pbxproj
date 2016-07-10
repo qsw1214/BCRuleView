@@ -15,6 +15,8 @@
 		E64959971D30CB2C00DE17DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64959951D30CB2C00DE17DD /* LaunchScreen.storyboard */; };
 		E64959A21D30CB2C00DE17DD /* BCRuleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64959A11D30CB2C00DE17DD /* BCRuleViewTests.m */; };
 		E64959AD1D30CB2C00DE17DD /* BCRuleViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E64959AC1D30CB2C00DE17DD /* BCRuleViewUITests.m */; };
+		E64959BC1D30CB7400DE17DD /* BCRuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E64959BB1D30CB7400DE17DD /* BCRuleView.m */; };
+		E6A0EB9E1D30FCAB00408071 /* BCRuleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A0EB9D1D30FCAB00408071 /* BCRuleContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		E64959A81D30CB2C00DE17DD /* BCRuleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BCRuleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E64959AC1D30CB2C00DE17DD /* BCRuleViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCRuleViewUITests.m; sourceTree = "<group>"; };
 		E64959AE1D30CB2C00DE17DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64959BA1D30CB7400DE17DD /* BCRuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRuleView.h; sourceTree = "<group>"; };
+		E64959BB1D30CB7400DE17DD /* BCRuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRuleView.m; sourceTree = "<group>"; };
+		E6A0EB9C1D30FCAB00408071 /* BCRuleContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRuleContentView.h; sourceTree = "<group>"; };
+		E6A0EB9D1D30FCAB00408071 /* BCRuleContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRuleContentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 			children = (
 				E649598A1D30CB2C00DE17DD /* AppDelegate.h */,
 				E649598B1D30CB2C00DE17DD /* AppDelegate.m */,
+				E64959BA1D30CB7400DE17DD /* BCRuleView.h */,
+				E64959BB1D30CB7400DE17DD /* BCRuleView.m */,
+				E6A0EB9C1D30FCAB00408071 /* BCRuleContentView.h */,
+				E6A0EB9D1D30FCAB00408071 /* BCRuleContentView.m */,
 				E649598D1D30CB2C00DE17DD /* ViewController.h */,
 				E649598E1D30CB2C00DE17DD /* ViewController.m */,
 				E64959901D30CB2C00DE17DD /* Main.storyboard */,
@@ -272,7 +282,9 @@
 			files = (
 				E649598F1D30CB2C00DE17DD /* ViewController.m in Sources */,
 				E649598C1D30CB2C00DE17DD /* AppDelegate.m in Sources */,
+				E6A0EB9E1D30FCAB00408071 /* BCRuleContentView.m in Sources */,
 				E64959891D30CB2C00DE17DD /* main.m in Sources */,
+				E64959BC1D30CB7400DE17DD /* BCRuleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +508,7 @@
 				E64959B31D30CB2C00DE17DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E64959B41D30CB2C00DE17DD /* Build configuration list for PBXNativeTarget "BCRuleViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				E64959B61D30CB2C00DE17DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E64959B71D30CB2C00DE17DD /* Build configuration list for PBXNativeTarget "BCRuleViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				E64959B91D30CB2C00DE17DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
